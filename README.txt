@@ -50,7 +50,7 @@ Start your multistep adventure with HubSpot FormMaker today! 🚀✨ #FormRevolu
 
 == Screenshots ==
 
-![Multistep](assests/seen1.png)
+![Multistep](https://formmaker.co.in/img/form-builder.jpg)
 
 
 
