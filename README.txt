@@ -8,54 +8,45 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+The HubSpot FormMaker Plugin is a Multi-Step Form Plugin that converts your HubSpot forms into multi-step forms with more advanced features.
+
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Start creating captivating multi-step forms in HubSpot with Formaker - the ultimate HubSpot form management plugin designed to revolutionize your form experiences! 🌐✨ Unleash the power of seamless conversion as we transform ordinary HubSpot forms into engaging multistep masterpieces. With our intuitive drag-and-drop interface, you have the creative freedom to enhance layouts effortlessly.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+== Key Features ==
 
-A few notes about the sections above:
+1. **Multistep Magic:** Elevate your forms with captivating multistep journeys.
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
+2. **Drag-and-Drop Design:** Effortlessly customize layouts with HubSpot fields, custom elements, rich text, and images.
 
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
+3. **Easy Tracking with HubSpot Multi-Step Form:** Our HubSpot Multi-Step form keeps track of everything you do. This means your customers can look back and see what they did last time, including an example of which fields they filled and which step they left the form.
 
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+4. **Result Pages:** Experience tailored results with our calculator feature that dynamically adjusts based on your score value. This means personalized and conditional result pages to provide you with the most relevant information. Enjoy a more customized experience!
+
+5. **HubSpot Dependent Field on the Next Level:** Now, our fields go a step further! They can show or hide based on what you entered before. This means you get only the fields you need, making things easier for you.
+
+== Ready to Elevate Your Forms? ==
+
+Start your multistep adventure with HubSpot FormMaker today! 🚀✨ #FormRevolution #HubSpotMagic
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload `formmaker.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Upload the 'hubspot-formmaker' folder to the '/wp-content/plugins/' directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Configure the plugin settings by navigating to the HubSpot FormMaker section in the WordPress dashboard.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How do I create a multistep form using HubSpot FormMaker? =
 
-An answer to that question.
+1. Go to the https://formmaker.co.in/app and Connect your Hubspot Account to Start Creating Form
+2. After Creating Form Copy your form id form listing page 
+3. add the id in this shortcode [formmaker formid="formid" ] on your website pages
+4. Save your changes and embed the form on your website.
 
-= What about foo bar? =
 
-Answer to foo bar dilemma.
 
 == Screenshots ==
 
@@ -65,50 +56,6 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 (or jpg, jpeg, gif).
 2. This is the second screen shot
 
-== Changelog ==
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
 
 `<?php code(); // goes in backticks ?>`
