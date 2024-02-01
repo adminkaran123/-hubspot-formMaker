@@ -12,7 +12,7 @@
  * @package           Formmaker
  *
  * @wordpress-plugin
- * Plugin Name:       Hubspot FormMaker
+ * Plugin Name:       Hubspot Multi Step FormMaker
  * Plugin URI:        https://https://formmaker.co.in/
  * Description:       Transform your form-filling experience with the brilliant Multi-Step Form HubSpot plugin! 🌟 Elevate your interactions with an exciting and efficient transformation that takes your WordPress forms to new heights. 🚀
 

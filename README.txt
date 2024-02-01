@@ -1,9 +1,9 @@
-=== Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://https://formmaker.co.in//
-Tags: comments, spam
+=== Hubspot Multi Step FormMaker ===
+Contributors: karanjalendere
+Tags: shortcode, forms
 Requires at least: 3.0.1
 Tested up to: 3.4
+Requires PHP: 5.6
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,11 +46,25 @@ Start your multistep adventure with HubSpot FormMaker today! 🚀✨ #FormRevolu
 3. add the id in this shortcode [formmaker formid="formid" ] on your website pages
 4. Save your changes and embed the form on your website.
 
-
-
 == Screenshots ==
+1. Add Slides
+2. Create your layout add additional elements
+3. Drop & adjust your hubspot fields
+4. Customize the Theme according to your brand
+5. Dependent Feilds with Advacned Option
+6. Calculation based result page with customizable option
 
-![Multistep](https://formmaker.co.in/img/form-builder.jpg)
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release of HubSpot FormMaker plugin.
+
 
 
 
